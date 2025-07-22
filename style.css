@@ -1,20 +1,36 @@
-.header{
+.header {
     text-align: center;
     font-size: 2rem;
     color: red;
 }
 
-.middle{
+.middle {
     display: flex;
     justify-content: center;
     height: 7vh;
 }
 
-.middle div{
+.middle div {
     font-size: 2rem;
 }
 
-.middle input{
+.middle input {
     height: 5vh;
     width: 10vw;
+    margin-left: 1rem;
+}
+
+.middle button {
+    margin-left: 1rem;
+    height: 5vh;
+    width: 10vw;
+    background-color: red   ;
+}
+
+.output{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    /* width: 10vw; */
 }
