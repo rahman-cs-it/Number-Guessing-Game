@@ -1,0 +1,20 @@
+.header{
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+}
+
+.middle div{
+    font-size: 2rem;
+}
+
+.middle input{
+    height: 5vh;
+    width: 10vw;
+}
